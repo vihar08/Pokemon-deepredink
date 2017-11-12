@@ -17,6 +17,7 @@ with sr.Microphone() as source:
     audio = r.listen(source)
 try:
     name = r.recognize_google(audio)
+    name = name.lower()
 except sr.UnknownValueError:
     print("Google Speech Recognition could not understand audio") 
 except sr.RequestError as e:
