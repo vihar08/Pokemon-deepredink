@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Tue Nov  7 20:05:32 2017
 
-This is a temporary script file.
+@author: Adluri Saivihar
 """
 
 import requests
