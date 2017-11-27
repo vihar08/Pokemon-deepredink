@@ -13,7 +13,7 @@ import speech_recognition as sr
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
-    print("Say something!")
+    print("Say the name of the Pokemon!")
     audio = r.listen(source)
 try:
     name = r.recognize_google(audio)
